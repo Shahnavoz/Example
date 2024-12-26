@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.clear-start {
+  clear: inline-start;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -566,16 +570,32 @@ video {
   display: none;
 }
 
-.w-\[\] {
-  width: ;
-}
-
 .w-\[82px\] {
   width: 82px;
 }
 
 .max-w-\[1200px\] {
   max-width: 1200px;
+}
+
+.rotate-0 {
+  --tw-rotate: 0deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-\[180\] {
+  --tw-rotate: 180;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-\[180deg\] {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-\[90deg\] {
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .flex-col {
@@ -590,6 +610,18 @@ video {
   justify-content: space-between;
 }
 
+.gap-\[20px\] {
+  gap: 20px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
+}
+
+.gap-\[35px\] {
+  gap: 35px;
+}
+
 .gap-\[50px\] {
   gap: 50px;
 }
@@ -598,32 +630,16 @@ video {
   gap: 80px;
 }
 
-.gap-\[\] {
-  gap: ;
-}
-
-.gap-\[30px\] {
-  gap: 30px;
-}
-
-.gap-\[20px\] {
-  gap: 20px;
-}
-
-.gap-\[35px\] {
-  gap: 35px;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
-.rounded-\[\] {
-  border-radius: ;
+.gap-\[25px\] {
+  gap: 25px;
 }
 
 .rounded-\[35px\] {
   border-radius: 35px;
+}
+
+.rounded-\[10px\] {
+  border-radius: 10px;
 }
 
 .border-\[1px\] {
@@ -634,32 +650,39 @@ video {
   border-style: solid;
 }
 
+.bg-\[\#F28B64\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 139 100 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#E2E2E2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 226 226 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[\] {
   background-color: ;
 }
 
-.bg-\[\#F28B64\] {
+.bg-\[\#5290EA\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(242 139 100 / var(--tw-bg-opacity, 1));
+  background-color: rgb(82 144 234 / var(--tw-bg-opacity, 1));
 }
 
 .p-\[20px\] {
   padding: 20px;
 }
 
-.px-\[10px\] {
-  padding-left: 10px;
-  padding-right: 10px;
+.p-\[50px\] {
+  padding: 50px;
 }
 
-.py-\[10px\] {
-  padding-top: 10px;
-  padding-bottom: 10px;
+.p-\[40px\] {
+  padding: 40px;
 }
 
-.px-\[15px\] {
-  padding-left: 15px;
-  padding-right: 15px;
+.p-\[px\] {
+  padding: px;
 }
 
 .px-\[5px\] {
@@ -672,13 +695,20 @@ video {
   padding-bottom: 15px;
 }
 
-.px-\[5\] {
-  padding-left: 5;
-  padding-right: 5;
+.pt-\[px\] {
+  padding-top: px;
+}
+
+.pt-\[10px\] {
+  padding-top: 10px;
 }
 
 .text-center {
   text-align: center;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
 }
 
 .text-\[25px\] {
@@ -689,12 +719,28 @@ video {
   font-size: 45px;
 }
 
-.text-\[18px\] {
-  font-size: 18px;
+.text-\[36px\] {
+  font-size: 36px;
 }
 
-.text-\[55px\] {
-  font-size: 55px;
+.text-\[72px\] {
+  font-size: 72px;
+}
+
+.text-\[52px\] {
+  font-size: 52px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
+}
+
+.text-\[34px\] {
+  font-size: 34px;
+}
+
+.text-\[32px\] {
+  font-size: 32px;
 }
 
 .font-medium {
@@ -706,8 +752,8 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.\*\:items-center > * {
-  align-items: center;
+.text-\[\] {
+  color: ;
 }
 
 @media (min-width: 1024px) {
@@ -719,11 +765,39 @@ video {
     display: none;
   }
 
+  .lg\:w-\[\] {
+    width: ;
+  }
+
+  .lg\:w-\[50px\] {
+    width: 50px;
+  }
+
+  .lg\:w-\[0px\] {
+    width: 0px;
+  }
+
+  .lg\:w-\[\25D8 0px\] {
+    width: ◘0px;
+  }
+
+  .lg\:w-\[80px\] {
+    width: 80px;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
 
   .lg\:items-center {
     align-items: center;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
+  .lg\:gap-\[20px\] {
+    gap: 20px;
   }
 }
